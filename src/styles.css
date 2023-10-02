@@ -1,0 +1,101 @@
+body {
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    
+    height: 350px;
+    padding-right: px;
+}
+
+.half {
+    flex: 1;
+    padding: 30px;
+}
+
+textarea, select, input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+}
+
+.navbar {
+    background-color: #DBD7D7;
+    overflow: hidden;
+    justify-content: space-between; /* Horizontally centered */
+    align-items: center;
+    
+}
+.logo {
+    float: left;
+    padding: 15px;
+    color: black;
+    font-size: 24px;
+}
+.search-bar {
+    float: right;
+    padding: 15px;
+}
+.nav-links {
+    
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+.nav-links li {
+    padding-top: 10px;
+    display: inline;
+    margin-right: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-weight: bold;
+}
+#age-group{
+    margin-bottom: 40px;
+}
+#idea{
+    margin-top: 2px;
+}
+#one{
+    margin-top: 40px;
+}
+#age-group{
+    height: 50px;
+    background-color:#fffdf5;
+    
+}
+#video-type {
+    width: 98%;
+    background-color:#fffdf5;
+    height: 150px;
+    text-align:bottom;
+    margin-top: 10px;
+    line-height: 1.2; /* Adjust the line-height for text visibility */
+    padding: 10px; /* Add padding to maintain text visibility and spacing */
+}
+
+.radio-group input[type="radio"] {
+    width: 25px; /* Adjust the width */
+    height: 25px; /* Adjust the height */
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Idea Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+        <a name="main"></a>
+    <div class="navbar">
+        <div class="logo"><a href="main.html" style="text-decoration: none; color:black">ScriptHelper</a></div>
+        <div class="search-bar">
+            <input type="text" placeholder="How can I help you?..">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="half">
+            <textarea id="idea" style="height: 300px; background-color: #fffdf5;" placeholder="Tell us what do you need..."></textarea>
+            <div class="radio-group" >
+                <label for="checkbox">Preferred Platform:</label>
+                <input type="radio" name="platform" value="youtube" background-color: #fffdf5;>Youtube
+                <input type="radio" name="platform" value="instagram"background-color: #fffdf5;>Instagram
+                <input type="radio" name="platform" value="twitter"background-color: #fffdf5;>Twitter
+            </div>
+            <div class="two">
+            <label for="age-group"background-color: #fffdf5;id="two">Target Age Group:</label>
+            <select id="age-group"background-color: #fffdf5;>
+                <option value=""background-color: #fffdf5;>Select an option</option>
+                <option value="5-10">5-10</option>
+                <option value="10-14">10-14</option>
+                <option value="14-18">14-18</option>
+                <option value="18-24">18-24</option>
+                <option value="24-32">24-32</option>
+                <option value="32-45">32-45</option>
+                <option value="45+">45+</option>
+            </select>
+            </div>
+            
+            <input type="text" id="video-type" placeholder="Any Specific Instructions?..."background-color: #fffdf5;>
+            <button onclick="generateScript()" id="one">Generate Script</button>
+            
+        </div>
+
+        <div class="half">
+            <textarea class="output" id="script-output" style="height: 620px;background-color: #fffdf5;"background-color: #fffdf5; placeholder="Desired Script..."></textarea>
+        </div>
+    </div>
+    <a name="main"></a>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
